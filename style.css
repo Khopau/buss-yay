@@ -19,10 +19,19 @@ h1 {
     color: rgb(0, 17, 150);
 }
 
-#stopSelector {
-    display: block;
-    margin: 20px auto;
-    padding: 10px;
+.dropdown-container {
+    margin-bottom: 20px; /* Space between dropdowns */
+}
+
+label {
+    display: block; /* Makes label take the full width */
+    margin-bottom: 5px; /* Space between label and dropdown */
+}
+
+select {
+    display: block; /* Makes the dropdown take the full width */
     width: 100%;
+    padding: 10px;
     font-size: 16px;
 }
+
