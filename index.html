@@ -10,10 +10,17 @@
 <body>
     <div class="container">
         <h1>E-Jeep Tracker</h1>
-        <label for="originSelector">Origin:</label>
-        <select id="originSelector"></select>
-        <label for="destinationSelector">Destination:</label>
-        <select id="destinationSelector"></select>
+        
+        <div class="dropdown-container">
+            <label for="originSelector">Origin:</label>
+            <select id="originSelector"></select>
+        </div>
+
+        <div class="dropdown-container">
+            <label for="destinationSelector">Destination:</label>
+            <select id="destinationSelector"></select>
+        </div>
+
         <div id="map" style="height: 600px;"></div>
         <div id="eta" style="margin-top: 20px;"></div>
     </div>
